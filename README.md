@@ -1,11 +1,37 @@
-# **Random Password Generator** 
-Simple program to generate a random password
+<center> 
 
-This project uses the random and string libraries to generate a random password with the length of the password being specified by the user. 
+# 🔒 **Random Password Generator** 🔒  
 
-The available characters are generated to include capital letters, lowercase letters, and digits. 
-The user specifies the desired length of the password, then the program randomly selects from the list of available characters to generate a password with the user-specified length. 
+</center> 
 
-### Documentation for the libraries used can be found here: </br>
-https://docs.python.org/3/library/string.html </br>
-https://docs.python.org/3/library/random.html
+Simple password generator that lets users create secure or basic passwords based on their needs. Currently supports two password-generation methods: 
+
+- **Basic Passwords** - for non-critical systems (uses `random` library)
+- **Secure Passwords** - for sensitive/high-security environments (uses `secrets` library) 
+
+<center> 
+
+----------------------------------------------------------
+
+## **Features**  
+
+</center> 
+
+- Generate strong random passwords 
+- Choose between basic or secure password generation 
+- User-defined password length 
+- Includes letters, digits, and punctuation 
+- Removes potentially problematic special characters (for certain systems)
+- Interactive prompts 
+
+<center> 
+
+----------------------------------------------------------
+
+## **Requirements** 
+
+</center> 
+
+- Python 3.8 or higher 
+- No external libraries required (everything is already part of Python standard library) 
+
